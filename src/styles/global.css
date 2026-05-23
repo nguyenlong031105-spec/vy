@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #050816;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050816;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#00bfff, #0066ff);
+  border-radius: 20px;
+}
+
+/* GLOBAL */
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  transition: 0.3s ease;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+/* CONTAINER */
+
+.container {
+  width: 84%;
+  margin: auto;
+}
+
+/* EFFECT */
+
+.glow {
+  box-shadow:
+    0 0 10px rgba(0,191,255,0.4),
+    0 0 20px rgba(0,191,255,0.3),
+    0 0 40px rgba(0,191,255,0.2);
+}
+
+/* SELECTION */
+
+::selection {
+  background: #00bfff;
+  color: white;
+}
